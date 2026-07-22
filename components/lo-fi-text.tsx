@@ -8,8 +8,8 @@ export type LoFiTextType = {
   showText?: boolean;
 
   /** Variant props */
-  center?: CSSProperties["center"];
-  size?: CSSProperties["size"];
+  center?: string | undefined;
+  size?: string | number | undefined;
 
   /** Style props */
   divWidth?: CSSProperties["width"];

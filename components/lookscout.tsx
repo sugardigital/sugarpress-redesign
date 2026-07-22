@@ -7,7 +7,7 @@ export type LookscoutType = {
   className?: string;
 
   /** Variant props */
-  type?: CSSProperties["type"];
+  type?: string | undefined;
 
   /** Style props */
   lookscoutHeight?: CSSProperties["height"];

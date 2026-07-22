@@ -7,7 +7,7 @@ export type PhotoFill1Type = {
   className?: string;
 
   /** Variant props */
-  size?: CSSProperties["size"];
+  size?: string | number | undefined;
 
   /** Style props */
   photoFillPosition?: CSSProperties["position"];

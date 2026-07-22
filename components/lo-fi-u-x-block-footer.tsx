@@ -7,9 +7,9 @@ import IconPlaceholder from "./icon-placeholder";
 export type LoFiUXBlockFooterType = {
   className?: string;
   secondaryButton?: boolean;
-  hierachy?: CSSProperties["hierachy"];
-  size?: CSSProperties["size"];
-  type?: CSSProperties["type"];
+  hierachy?: string | undefined;
+  size?: string | number | undefined;
+  type?: string | undefined;
   firstIcon?: boolean;
   trilingIcon?: boolean;
   iconPlaceholderBorderRadius?: CSSProperties["borderRadius"];
@@ -17,9 +17,9 @@ export type LoFiUXBlockFooterType = {
   iconPlaceholderPadding?: CSSProperties["padding"];
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  orientation?: CSSProperties["orientation"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  orientation?: string | boolean | undefined;
+  variant?: string | number | undefined;
 
   /** Style props */
   loFiUXBlockFooterWidth?: CSSProperties["width"];

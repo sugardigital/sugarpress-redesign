@@ -8,12 +8,12 @@ export type LoFiUXBlockHeaderType = {
   supportingText?: boolean;
   uphead?: boolean;
   showLoFiUXBlockHeader?: boolean;
-  textContainerCenter?: CSSProperties["center"];
-  headerCenter?: CSSProperties["center"];
-  paragraphCenter?: CSSProperties["center"];
-  textContainerSize?: CSSProperties["size"];
-  headerSize?: CSSProperties["size"];
-  paragraphSize?: CSSProperties["size"];
+  textContainerCenter?: string | undefined;
+  headerCenter?: string | undefined;
+  paragraphCenter?: string | undefined;
+  textContainerSize?: string | undefined;
+  headerSize?: string | undefined;
+  paragraphSize?: string | undefined;
   textContainerShowDiv?: boolean;
   headerShowDiv?: boolean;
   paragraphShowDiv?: boolean;
@@ -31,7 +31,7 @@ export type LoFiUXBlockHeaderType = {
   paragraphDivFlex?: CSSProperties["flex"];
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
+  breakpoint?: string | undefined;
 
   /** Style props */
   loFiUXBlockHeaderWidth?: CSSProperties["width"];

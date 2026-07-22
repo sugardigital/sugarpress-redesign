@@ -8,10 +8,10 @@ export type IconPlaceholderFillType = {
   trilingIcon?: boolean;
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  dropdown?: CSSProperties["dropdown"];
-  orientation?: CSSProperties["orientation"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  dropdown?: string | undefined;
+  orientation?: string | boolean | undefined;
+  variant?: string | number | undefined;
 };
 
 const getIconPlaceholderFillStyle = (styleKey: string) => {

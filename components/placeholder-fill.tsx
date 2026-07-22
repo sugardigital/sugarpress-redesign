@@ -6,7 +6,7 @@ export type PlaceholderFillType = {
   className?: string;
 
   /** Variant props */
-  size?: CSSProperties["size"];
+  size?: string | number | undefined;
 };
 
 const PlaceholderFill: NextPage<PlaceholderFillType> = ({

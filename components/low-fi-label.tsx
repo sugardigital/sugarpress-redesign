@@ -7,8 +7,8 @@ export type LowFiLabelType = {
   className?: string;
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  variant?: string | number | undefined;
 
   /** Style props */
   lowFiLabelHeight?: CSSProperties["height"];

@@ -12,8 +12,8 @@ export type LoFiUXFeaturesType = {
   header?: boolean;
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  variant?: string | number | undefined;
 };
 
 const LoFiUXFeatures: NextPage<LoFiUXFeaturesType> = ({

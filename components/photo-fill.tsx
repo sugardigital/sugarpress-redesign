@@ -8,7 +8,7 @@ export type PhotoFillType = {
   showPhotoFillIcon?: boolean;
 
   /** Variant props */
-  type?: CSSProperties["type"];
+  type?: string | undefined;
 
   /** Style props */
   photoFillWidth?: CSSProperties["width"];

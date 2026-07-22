@@ -8,7 +8,7 @@ export type BackgroundType = {
   shapeBg: string;
 
   /** Variant props */
-  rounded?: CSSProperties["rounded"];
+  rounded?: string | undefined;
 
   /** Style props */
   backgroundHeight?: CSSProperties["height"];

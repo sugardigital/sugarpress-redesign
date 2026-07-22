@@ -9,9 +9,9 @@ export type LowFiPageHeaderType = {
   className?: string;
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  dropdown?: CSSProperties["dropdown"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  dropdown?: string | undefined;
+  variant?: string | number | undefined;
 };
 
 const LowFiPageHeader: NextPage<LowFiPageHeaderType> = ({

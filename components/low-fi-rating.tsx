@@ -6,7 +6,7 @@ export type LowFiRatingType = {
   className?: string;
 
   /** Variant props */
-  size?: CSSProperties["size"];
+  size?: string | number | undefined;
 };
 
 const LowFiRating: NextPage<LowFiRatingType> = ({

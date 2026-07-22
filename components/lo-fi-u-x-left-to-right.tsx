@@ -11,14 +11,14 @@ export type LoFiUXLeftToRightType = {
   className?: string;
   footer?: boolean;
   header?: boolean;
-  lowFiIconPlaceholderSize?: CSSProperties["size"];
-  lowFiIconPlaceholderSize1?: CSSProperties["size"];
-  lowFiIconPlaceholderSize2?: CSSProperties["size"];
+  lowFiIconPlaceholderSize?: string | undefined;
+  lowFiIconPlaceholderSize1?: string | undefined;
+  lowFiIconPlaceholderSize2?: string | undefined;
 
   /** Variant props */
-  breakpoint?: CSSProperties["breakpoint"];
-  orientation?: CSSProperties["orientation"];
-  variant?: CSSProperties["variant"];
+  breakpoint?: string | undefined;
+  orientation?: string | boolean | undefined;
+  variant?: string | number | undefined;
 };
 
 const LoFiUXLeftToRight: NextPage<LoFiUXLeftToRightType> = ({

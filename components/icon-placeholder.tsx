@@ -9,9 +9,9 @@ export type IconPlaceholderType = {
   trilingIcon?: boolean;
 
   /** Variant props */
-  hierachy?: CSSProperties["hierachy"];
-  size?: CSSProperties["size"];
-  type?: CSSProperties["type"];
+  hierachy?: string | undefined;
+  size?: string | number | undefined;
+  type?: string | undefined;
 
   /** Style props */
   iconPlaceholderBorderRadius?: CSSProperties["borderRadius"];
